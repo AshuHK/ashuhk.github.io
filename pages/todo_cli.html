@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Project Name</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="../assets/css/main.css" />
+</head>
+
+<body class="is-preload">
+
+  <header id="header">
+    <div class="inner">
+      <a href="../index.html" class="image avatar"><img src="../images/avatar.jpg" alt="" /></a>
+      <h1><strong>Project Name</strong>
+      </h1>
+    </div>
+  </header>
+
+  <div id="main">
+
+    <!-- README -->
+    <section id="one">
+      <header class="major">
+        <h2 style="padding-bottom: 0ch; margin-bottom: 0ch;">Description</h2>
+      </header>
+
+      <p>
+      <p>A simple command line to-do list manager using markdown-like styling</p>
+      <h2 id="installation-and-setup">Installation and Setup</h2>
+      <p>To make the <code>.todo.user</code> if it is not in the directory, use the following command for vim (use
+        whatever text editor you like for this):</p>
+      <pre><code class="lang-bash"><span class="hljs-comment"># to get this repo</span>
+        git <span class="hljs-keyword">clone</span> <span class="hljs-title">https</span>://github.com/AshuHK/TODO_CLI.git
+        cd TODO_CLI
+        
+        <span class="hljs-comment"># to create the .todo.user file</span>
+        vim .todo.<span class="hljs-keyword">user</span>
+        <span class="hljs-title">:wq</span>
+        </code></pre>
+      <p>Then, you will have to compile using the Makefile and then you are all set:</p>
+      <pre><code><span class="hljs-meta"># to compile</span>
+        make
+        
+        <span class="hljs-meta"># to use TODO_CLI</span>
+        ./todo_cli
+        </code></pre>
+      <h2 id="keybindings">Keybindings</h2>
+      <ul>
+        <li>
+          <p>Main Controls</p>
+          <ul>
+            <li><code>l</code> or <code>L</code> - show your to do list</li>
+            <li><code>a</code> or <code>A</code> - append new item to the list</li>
+            <li><code>c</code> or <code>C</code> - toggle checkmark on an item in the list</li>
+            <li><code>d</code> or <code>D</code> - delete item in the list</li>
+            <li><code>r</code> or <code>R</code> - rename item in the list</li>
+          </ul>
+        </li>
+        <li>
+          <p>Misc.</p>
+          <ul>
+            <li><code>h</code> or <code>H</code> - help</li>
+            <li><code>q</code> or <code>Q</code> - quit TODO CLI</li>
+          </ul>
+        </li>
+      </ul>
+      <p>Note: The todo list is stored in <code>.todo.user</code>.</p>
+
+      </p>
+
+    </section>
+
+
+    <!-- Resume Button -->
+    <!-- Need to put a copy of the resume in the href -->
+    <section id="five">
+      <ul class="actions">
+        <li><a href="#" class="button primary">Visit on Github</a></li>
+      </ul>
+    </section>
+
+  </div>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="inner">
+      <ul class="copyright">
+        <li>Made by Ashu</li>
+        <li>have a nice day</li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="../assets/js/jquery.min.js"></script>
+  <script src="../assets/js/jquery.poptrox.min.js"></script>
+  <script src="../assets/js/browser.min.js"></script>
+  <script src="../assets/js/breakpoints.min.js"></script>
+  <script src="../assets/js/util.js"></script>
+  <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>

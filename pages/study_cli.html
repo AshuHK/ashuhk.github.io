@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Study CLI</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="../assets/css/main.css" />
+</head>
+
+<body class="is-preload">
+
+  <header id="header">
+    <div class="inner">
+      <a href="../index.html" class="image avatar"><img src="../images/avatar.jpg" alt="" /></a>
+      <h1><strong>Study CLI</strong>, the command based flashcards application. 
+      </h1>
+    </div>
+  </header>
+
+  <div id="main">
+
+    <!-- README -->
+    <section id="one">
+      <header class="major">
+        <h2 style="padding-bottom: 0ch; margin-bottom: 0ch;">Description</h2>
+      </header>
+
+      <p>
+      <p>A command line based flashcard application using the vim keybindings. This provides the user with a minimal
+        enviroment to study as well as a new simple way to store your flashcards.</p>
+      <h2 id="installation-and-setup">Installation and Setup</h2>
+      <p>To get this repo just clone it it wherever you want:</p>
+      <pre><code class="lang-bash">git <span class="hljs-keyword">clone</span> <span class="hljs-title">https</span>://github.com/AshuHK/Study_CLI.git
+cd Study_CLI
+</code></pre>
+      <p>You can create a <code>.study</code> file by using whatever text editor you want (vim, emacs, nano, etc.). You
+        will also have to compile it using the Makefile:</p>
+      <pre><code class="lang-bash"><span class="hljs-meta"># to compile</span>
+make
+
+<span class="hljs-meta"># to use Study CLI</span>
+./study_cli
+</code></pre>
+      <h2 id="keybindings">Keybindings</h2>
+      <ul>
+        <li>
+          <p>Main Controls</p>
+          <ul>
+            <li><code>h</code> or <code>H</code> - go back one card</li>
+            <li><code>j</code> or <code>J</code> - flip the current card</li>
+            <li><code>k</code> or <code>K</code> - flip the current card (also)</li>
+            <li><code>l</code> or <code>L</code> - go forward one card</li>
+          </ul>
+        </li>
+        <li>
+          <p>Misc.</p>
+          <ul>
+            <li><code>?</code> - help</li>
+            <li><code>q</code> or <code>Q</code> - quit Study CLI</li>
+          </ul>
+        </li>
+      </ul>
+      <p>Note: In <code>.study</code> files, the delimiter character is <code>|</code>. See
+        <code>formatting.study</code> for more details on formatting.</p>
+
+      </p>
+
+    </section>
+
+
+    <!-- Resume Button -->
+    <!-- Need to put a copy of the resume in the href -->
+    <section id="five">
+      <ul class="actions">
+        <li><a href="https://github.com/AshuHK/Study_CLI" class="button primary">View on Github</a></li>
+      </ul>
+    </section>
+
+  </div>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="inner">
+      <ul class="copyright">
+        <li>Made by Ashu</li>
+        <li>have a nice day</li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="../assets/js/jquery.min.js"></script>
+  <script src="../assets/js/jquery.poptrox.min.js"></script>
+  <script src="../assets/js/browser.min.js"></script>
+  <script src="../assets/js/breakpoints.min.js"></script>
+  <script src="../assets/js/util.js"></script>
+  <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>

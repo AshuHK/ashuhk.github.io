@@ -12,7 +12,7 @@
 
   <header id="header">
     <div class="inner">
-      <a href="../index.html" class="image avatar"><img src="../images/avatar.jpg" alt="" /></a>
+      <a href="../index.html" class="image avatar"><img src="../images/logo_src/default.png" alt="" /></a>
       <h1><strong>TODO CLI</strong>, the command line based todo list manager
       </h1>
     </div>
@@ -31,21 +31,25 @@
       <h2 id="installation-and-setup">Installation and Setup</h2>
       <p>To make the <code>.todo.user</code> if it is not in the directory, use the following command for vim (use
         whatever text editor you like for this):</p>
-      <pre><code class="lang-bash"><span class="hljs-comment"># to get this repo</span>
-        git <span class="hljs-keyword">clone</span> <span class="hljs-title">https</span>://github.com/AshuHK/TODO_CLI.git
-        cd TODO_CLI
-        
-        <span class="hljs-comment"># to create the .todo.user file</span>
-        vim .todo.<span class="hljs-keyword">user</span>
-        <span class="hljs-title">:wq</span>
-        </code></pre>
+
+<pre><code class="lang-bash"><span class="hljs-comment"># to get this repo</span>
+git <span class="hljs-keyword">clone</span> <span class="hljs-title">https</span>://github.com/AshuHK/TODO_CLI.git
+cd TODO_CLI
+
+<span class="hljs-comment"># to create the .todo.user file</span>
+vim .todo.<span class="hljs-keyword">user</span>
+<span class="hljs-title">:wq</span>
+</code></pre>
+
       <p>Then, you will have to compile using the Makefile and then you are all set:</p>
-      <pre><code><span class="hljs-meta"># to compile</span>
-        make
-        
-        <span class="hljs-meta"># to use TODO_CLI</span>
-        ./todo_cli
-        </code></pre>
+
+<pre><code><span class="hljs-meta"># to compile</span>
+make
+
+<span class="hljs-meta"># to use TODO_CLI</span>
+./todo_cli
+</code></pre>
+
       <h2 id="keybindings">Keybindings</h2>
       <ul>
         <li>

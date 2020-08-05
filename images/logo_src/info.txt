@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Ubuntu-R
+font link: https://fonts.google.com/specimen/Ubuntu
+font author: Dalton Maag
+font author site: http://www.daltonmaag.com/
+
+
+icon designer: Chris Terrill
+icon designer link: /christerrill
+        
+{"bg":"#00242B","icon":"#7DE38D","font":"#7DE38D","slogan":"#91f7a1"}
+      

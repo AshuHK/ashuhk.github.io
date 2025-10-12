@@ -1,4 +1,15 @@
 * {
 	font-family: "JetBrains Mono", monospace;
-	font-size: 12px; /* TODO: make this dynamic*/
+	font-size: clamp(1vw, 3vw, 15px);
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5% 5% 5% 5%;
+	text-align: left;
+	line-height: 1.2;
+	word-break: break-all;
+	word-wrap: break-word;
 }
